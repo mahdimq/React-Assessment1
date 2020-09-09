@@ -15,7 +15,7 @@ Answer the following questions below:
   Components are created like JavaScript functions or classes. Components accept inputs or properties called "props" and return React elements describing what should render on the DOM.
 
 - What are some difference between state and props?
-  Props are variables passed to its parent by components. Props are immutable and should never be changed in a child component. State is also a variable but directly initialized and managed by the components itself. State is mutable.
+  Props are variables passed to its children by components. Props are immutable and should never be changed in a child component. State is also a variable but directly initialized and managed by the components itself. State is mutable.
 
 * What does "downward data flow" refer to in React?
   Downward data flow means that the direction of the flow of data is from PARENT to CHILD, and not the other way around. This is so that an object can be changed without effect to its parent data by simple state modifications.
